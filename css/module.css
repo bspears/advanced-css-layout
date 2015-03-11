@@ -5,10 +5,9 @@
   background-color:
 }
 
-.contentSection {
+.greenSection {
   background-color: #649923;
   color: #fff;
-  padding: 10%;
   text-align: center;
 }
 
@@ -18,7 +17,7 @@
   display: block;
 }
 
-.contactSection {
+.sectionPadding {
   padding: 10%;
 }
 
