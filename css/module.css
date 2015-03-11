@@ -1,0 +1,21 @@
+.titleStyle {
+  color: #fff;
+  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contentSection {
+  background-color: #649923;
+  color: #fff;
+  padding: 10%;
+}
+
+.link {
+  color: #fff;
+  font-size: 1.5em;
+
+}
+
+.link:hover {
+  color: #aaa;
+}

@@ -1,5 +1,7 @@
-.center-text {
-  text-align: center;
+.titlePosition {
+  position: absolute;
+  top: 40%;
+  left: 60%;
 }
 
 
