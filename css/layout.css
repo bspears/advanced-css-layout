@@ -1,12 +1,28 @@
 .titlePosition {
   position: absolute;
-  top: 40%;
-  left: 60%;
+  right: 2%;
+  bottom: 10px;
 }
 
+.centerContent {
+  margin: 0 auto;
+  display: block;
+}
 
+.coverImage {
+  position: relative;
+}
 
+.ribbonPosition {
+  position: absolute;
+  bottom: 0;
+  height: 5em;
+  width: 100%;
+}
 
+.contact li {
+  padding: 2%;
+}
 
 /* ============================================ */
 /* This file has a mobile-to-desktop breakpoint */
