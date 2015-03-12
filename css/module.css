@@ -4,6 +4,12 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.subTitle {
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: .7em;
+}
+
 .coverImage {
   position: relative;
   background-color: rgb(120, 120, 120);
@@ -19,20 +25,25 @@
   text-align: center;
 }
 
-.link {
+.bigLink {
   color: #fff;
   font-size: 1.5em;
   display: block;
   margin-bottom: 1.5em;
+  text-decoration: underline;
 }
 
 .sectionPadding {
   padding: 10%;
 }
 
-/*.ribbonStyle {
-  background-color: rgba(120, 120, 120, .65);
-}*/
+.topBottomPadding {
+  padding: 10% 0;
+}
+
+.orangeSection {
+  background-color: #CF7019;
+}
 
 strong {
   text-decoration: underline;
@@ -47,7 +58,7 @@ footer {
 }
 
 .icon {
-  max-width: 30%;
+  width: 5em;
   margin: 1%;
 }
 
@@ -55,10 +66,42 @@ footer {
   font-size: 1.3em;
 }
 
+.flexContainer {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
 
-/*Tablet
+.hideMobile {
+  display: none;
+}
+
+.event img {
+  margin: 1em 0 .5em 0;
+}
+
+.eventText {
+  font-size: 1.1em;
+  color: #fff;
+  line-height: 1.2em;
+}
+
+.smallLink {
+  display: block;
+  background-color: rgb(0, 160, 165);
+  text-align: center;
+  color: #FFF;
+  margin: .5em 0;
+  padding: .3em 0;
+  text-decoration: underline;
+}
+
+
+/*Tablet & Desktop
 ****************************************/
-
 
 @media (min-width: 64em) {
 
@@ -72,6 +115,29 @@ footer {
   background-color: rgba(120, 120, 120, .65);
   }
 
+  .hideMobile {
+    display: inline;
+  }
 
+  .bigLink {
+    text-decoration: none;
+  }
+
+  .flexContainer {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .event img {
+    max-width: 22.5em;
+  }
+
+  .orangeSection {
+    padding: 10%;
+  }
 
 }
