@@ -2,7 +2,15 @@
   color: #fff;
   font-size: 3em;
   font-family: 'Raleway', sans-serif;
-  background-color:
+}
+
+.coverImage {
+  position: relative;
+  background-color: rgb(120, 120, 120);
+}
+
+.fullWidth {
+  width: 100%;
 }
 
 .greenSection {
@@ -15,15 +23,16 @@
   color: #fff;
   font-size: 1.5em;
   display: block;
+  margin-bottom: 1.5em;
 }
 
 .sectionPadding {
   padding: 10%;
 }
 
-.ribbonStyle {
+/*.ribbonStyle {
   background-color: rgba(120, 120, 120, .65);
-}
+}*/
 
 strong {
   text-decoration: underline;
@@ -40,4 +49,29 @@ footer {
 .icon {
   max-width: 30%;
   margin: 1%;
+}
+
+.infoList {
+  font-size: 1.3em;
+}
+
+
+/*Tablet
+****************************************/
+
+
+@media (min-width: 64em) {
+
+  .titleStyle {
+  color: #fff;
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+  }
+
+  .ribbonStyle {
+  background-color: rgba(120, 120, 120, .65);
+  }
+
+
+
 }
