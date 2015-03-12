@@ -99,6 +99,10 @@ footer {
   text-decoration: underline;
 }
 
+ .event img {
+    max-width: 22.5em;
+  }
+
 
 /*Tablet & Desktop
 ****************************************/
@@ -132,12 +136,16 @@ footer {
     align-items: center;
   }
 
-  .event img {
-    max-width: 22.5em;
-  }
-
   .orangeSection {
     padding: 10%;
+  }
+
+  .eventText {
+    line-height: 1.3em;
+  }
+
+  .smallLink {
+    text-decoration: none;
   }
 
 }
